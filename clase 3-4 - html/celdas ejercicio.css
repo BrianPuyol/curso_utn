@@ -4,5 +4,9 @@
 }
 
 #sub_titulo{
-    background-color: grey;
+    background-color: rgb(151, 149, 149);
+}
+
+#celdas{
+    background-color: red;
 }
