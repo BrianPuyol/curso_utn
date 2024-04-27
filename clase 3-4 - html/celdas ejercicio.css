@@ -4,9 +4,17 @@
 }
 
 #sub_titulo{
-    background-color: rgb(151, 149, 149);
+    background-color: darkgrey;
 }
 
-#celdas{
+.celdas{
+    background-color: lightgray;
+}
+
+#celda_0{
     background-color: red;
+}
+
+td{
+    text-align: center;
 }
