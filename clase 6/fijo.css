@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    /*A las etiquetas mas grandes como body, head, table, las podes llamar de una*/
+}
+
+.caja{
+    background-color: gray;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    /*Para hacer botoneras al fijas al momento del scroll*/
+}
+
+.texto{
+    background-color: yellow;
+    margin-top: 65px;
+    /*Este último hace que esa botonera no te tape el texto inicial*/
+}
