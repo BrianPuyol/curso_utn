@@ -1,0 +1,37 @@
+.caja{
+
+    margin: 150px;
+
+    width: 300px;
+    height: 200px;
+
+    background-color: yellow;
+    font-size: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* transform: rotate(-90deg); */
+    /* transform: scale(1.5); es un 50% más */
+    transform: scale(0.75);
+    cursor: pointer; /*pone la "manito" al posicionarse*/
+    /*Falta una transicion --->*/
+    transition: all 1s ease; /*movimiento suave*/
+    /* opacity: 0.5; */
+    filter: grayscale(100)
+}
+
+.caja:hover{ /*hover es una pseudoclase, es para que cambie al momento el cursor se     posicione en él*/
+
+    background-color: orange;
+    transform: scale(1) rotate(-90deg);
+    color: red;
+    box-shadow: inset 0 0 0 25px green;
+    /*No se recomienda agrandar letra ya que pueda mover items dentro*/
+    /* opacity: 1; Se generó transicion al haber puesto 0.5 antes "KEYFRAMES" */
+    filter: grayscale(0); /*se puede usar en fotos para pasar de grises a colores*/
+    border-radius: 50%;
+
+
+}

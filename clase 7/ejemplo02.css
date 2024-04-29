@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /*Ese "flex" hace que la pagina sea flexible hasta donde hay espacio, se amontona pero deja amargen*, "inline-flex" acomoda los elementos pero no ajusta la página*/
+    flex-direction: row;  /*Row" (fila) es el que viene por defecto*/
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}

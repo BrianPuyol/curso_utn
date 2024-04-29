@@ -1,0 +1,13 @@
+.contenedor{
+    background-color: gray;
+    display: inline-flex;
+    /*Ese "flex" hace que la pagina sea flexible hasta donde hay espacio, se amontona pero deja amargen*, "inline-flex" acomoda los elementos pero no ajusta la página*/
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.contenedor{
+    background-color: gray;
+    display: flex;
+    /*Ese "flex" hace que la pagina sea flexible hasta donde hay espacio, se amontona pero deja amargen*, "inline-flex" acomoda los elementos pero no ajusta la página*/
+    justify-content: flex-start; /*"flex-start" viene por defecto, todo a la izquierda*/
+    justify-content: flex-end; /*todo a la derecha*/
+    justify-content: center; /*todo al centro*/
+    justify-content: space-between; /*sacando el margin: 10px, los separa*/
+    justify-content: space-around; /*un poquito menos margen a las puntas*/
+    justify-content: space-evenly; /*mete margen por igual, meojr que "space-around"*/
+}
+
+.item{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+}
