@@ -14,3 +14,5 @@ const producto = valor1 * valor2; //no hay problema en esta
 console.log(suma); //'1015' en vez de 25
 console.log(suma2); //25
 console.log(producto); //150
+
+
