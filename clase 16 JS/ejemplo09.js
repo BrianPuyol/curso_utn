@@ -1,6 +1,6 @@
 const numeros = [1,23,45,65,36,25]
 
-const dobles = numeros.map(function(num){
+const dobles = numeros.map(function(num){ //maps = recorro el array
     return num*2 //devuelve la const "numeros" por 3
 })
 
