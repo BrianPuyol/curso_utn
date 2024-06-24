@@ -11,4 +11,5 @@ for(let i = 0; i < frutas.length; i++){ //Arranca el indice desde 0
     console.log('Tenemos ' + frutas [i]);
     document.write('Tenemos ' + frutas [i] + "<br/>");
 }
-    
+ 
+

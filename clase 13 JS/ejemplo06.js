@@ -13,3 +13,4 @@ if (mes == 1 || mes == 2 || mes == 3) {
 }
 
 console.log(mes)
+

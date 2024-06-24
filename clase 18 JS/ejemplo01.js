@@ -27,7 +27,7 @@ const empleados = [
 
 const desarrolladores = empleados.filter(
     empleado => empleado.trabajo == 'desarrollador'
-) // usar "==" para igualar // usar "==" para asignar
+) // usar "==" para igualar // usar "=" para asignar
 
 console.log(desarrolladores)
 

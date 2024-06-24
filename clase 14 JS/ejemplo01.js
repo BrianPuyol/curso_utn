@@ -5,7 +5,7 @@ console.log(nombre);
 console.log(nota);
 
 if(Number.isNaN(nota)){ //NaN (not a number)
-    document.write(`La nota inresada no es válida`)
+    document.write(`La nota ingresada no es válida`)
 } else if(nota >=4){ //Si nota es mayor o igual que 4 estás aprobado
     document.write(`${nombre} estás aprobada/o con un ${nota}`);
     document.log(`${nombre} estás aprobada/o con un ${nota}`);

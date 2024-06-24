@@ -9,7 +9,5 @@ const triple = numeros.map(function(num){
 })
 
 console.log(numeros)
-
 console.log(dobles)
-
 console.log(triple)

@@ -21,3 +21,4 @@ switch (valor) { //Si es para proponer diferentes casos
         document.write('debe ingresar a un número comprendido entre 1 y 5')
         break;
 }
+

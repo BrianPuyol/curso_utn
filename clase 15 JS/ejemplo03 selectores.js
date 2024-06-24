@@ -1,5 +1,5 @@
 
-function allParrafo() {
+function allParrafo(){
 
     const all = document.getElementsByTagName('p');
     //console.log(all) //llamo todas las p en la consola

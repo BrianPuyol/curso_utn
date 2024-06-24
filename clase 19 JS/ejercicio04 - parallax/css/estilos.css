@@ -1,0 +1,41 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 50px;
+    text-shadow: 0 3px 4px rgba(0, 0, 0, 0.5); /*0.5 opacidad*/
+}
+
+#intro {
+    background: url(../img/01.jpg) 50% 0 fixed; /*centras en el 50% X | no modificas Y*/
+    background-size: cover; /*redimenciona la imagen para cubrir el área*/
+    min-height: 900px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#bloque-img2 {
+    background: url(../img/02.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+#bloque-img3 {
+    background: url(../img/04.jpg) 50% 0 fixed;
+    background-size: cover;
+    height: 600px;
+}
+
+.texto{
+    color: #ddd;
+    padding: 60px;
+    text-align: center;
+}
+
+.bloque{
+    background-color: black;
+    margin: 0 auto;
+}

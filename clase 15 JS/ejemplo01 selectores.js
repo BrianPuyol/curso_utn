@@ -1,8 +1,8 @@
-const parrafo = document.querySelector('.destacados'); //llamo la variable, con su clase
+const parrafo = document.querySelector('.destacados'); //llamo la primera coincidencia de la clase
 
 console.log(parrafo);
 
-const parrafos = document.querySelectorAll('.destacados'); //llamo todas las varias con su clase
+const parrafos = document.querySelectorAll('.destacados'); //llamo todas las coincidencias de la clase
 
 console.log(parrafos)
 

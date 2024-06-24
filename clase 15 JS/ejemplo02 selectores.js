@@ -6,3 +6,4 @@ for(let i=0; i < items.length; i++){ //arranca desde el indice cero, hasta el ma
 
     items[i].style = 'color:blue; padding-left: ' + (10*i) + 'px';
 }
+
